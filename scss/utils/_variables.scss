@@ -4,41 +4,26 @@
 
 /// Regular font family
 /// @type List
-$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$content-font-stack: 'Dosis', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+$nav-font-stack: 'Lora', sans-serif !default;
+
+$nav-font-stack: 'Lora:700', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
 
 /// Code (monospace) font family
 /// @type List
 $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
 
-/// Light grey
-/// @type Color
-$light-grey: rgb(237, 237, 237) !default;
+// Color Palette //
+$background-color: #78512D;
+$base-text-color: #ffffff;
+$tittle-text-color: darken($base-text-color, 40%);
 
-/// Medium grey
-/// @type Color
-$mid-grey: rgb(153, 153, 153) !default;
-
-/// Dark grey
-/// @type Color
-$dark-grey: rgb(68, 68, 68) !default;
-
-/// Copy text color
-/// @type Color
-$base-text-color: rgb(256, 256, 256) !default;
 
 /// Copy text shadow color
 /// @type Color
 $text-shadow:rgb(34, 34, 34);
-
-/// Main bacground color
-/// @type Color
-$background-color: rgb(34, 34, 34) !default;
-
-/// Main brand color
-/// @type Color
-$brand-color: rgb(229, 0, 80) !default;
-
-
 
 /// Container's maximum width
 /// @type Length

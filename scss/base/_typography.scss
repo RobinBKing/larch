@@ -18,5 +18,7 @@
 body {
   color: $base-text-color;
   background-color: $background-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font: normal 125% / 1.4 $content-font-stack;
+  // font-size: 13px;
+  // line-height: 20px;
 }

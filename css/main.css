@@ -6228,16 +6228,16 @@ html {
 /* Basic styles for links
 */
 a {
-  color: white;
+  color: #ffffff;
   text-decoration: none; }
   a:hover, a:active, a:focus {
-    color: white;
+    color: #ffffff;
     text-decoration: underline; }
 
 body {
-  color: white;
-  background-color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
+  color: #ffffff;
+  background-color: #78512D;
+  font: normal 125%/1.4 "Dosis", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif; }
 
 /**
  * Clear inner floats
@@ -6294,12 +6294,6 @@ body {
   position: absolute;
   width: 1px; }
 
-body {
-  font-family: "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 13px;
-  font-weight: normal;
-  line-height: 20px; }
-
 ul {
   margin: 10px;
   display: flex;
@@ -6309,10 +6303,22 @@ ul {
   text-transform: uppercase; }
 
 li a {
-  color: white; }
+  color: #ffffff; }
+
+.logo {
+  position: absolute;
+  left: 25%;
+  top: 50%;
+  width: 30em;
+  height: auto;
+  z-index: 1; }
+  .logo img {
+    width: 100%;
+    height: 100%; }
 
 .nav {
-  background-color: #222222; }
+  background-color: #78512D;
+  font-family: "Lora", sans-serif; }
 
 .content {
   display: flex; }
@@ -6333,7 +6339,7 @@ ul {
 
 .carousel-caption h1 {
   font-size: 500%;
-  text-shadow: 2px 2px #222222; }
+  text-shadow: 2px 2px #78512D; }
 
 #carousel-couple {
   margin-bottom: 5px; }
@@ -6349,15 +6355,16 @@ ul {
 
 .item {
   align-items: center;
-  max-width: none; }
+  max-width: none;
+  height: 30%; }
 
 .carousel {
   margin: 0 auto;
   max-width: 100%;
-  background-color: #222222; }
+  background-color: #78512D; }
 
 #carousel-example-generic.carousel.slide {
-  background-color: #222222; }
+  background-color: #78512D; }
 
 .item {
   top: 0;
@@ -6371,7 +6378,7 @@ ul {
   min-width: 100%; }
 
 h3 {
-  background-color: #222222; }
+  background-color: #78512D; }
 
 .dropdown {
   text-align: center; }
@@ -6394,7 +6401,7 @@ h3 {
 /*Controls the header on the first page. Does not control the tittle*/
 .page-header {
   text-align: center;
-  background-color: #222222;
+  background-color: #78512D;
   height: 100px;
   margin-top: -40px;
   margin-bottom: -20px; }
@@ -6411,7 +6418,7 @@ h3 {
   height: 50px;
   margin-top: -20px;
   text-indent: center;
-  background-color: #222222;
+  background-color: #78512D;
   text-align: center;
   padding-top: 10px;
   font-family: Georgia serif; }
