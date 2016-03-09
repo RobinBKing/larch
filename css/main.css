@@ -6225,6 +6225,12 @@ html {
 /**
  * Basic typography style for copy text
  */
+**:not(body):not(html) {
+  border: 1px dashed blue; }
+
+.columns {
+  min-height: 100px !important; }
+
 /* Basic styles for links
 */
 a {
@@ -6255,8 +6261,6 @@ body {
  */
 .wrapper {
   align-items: center;
-  max-width: 1180px;
-  /* 1 */
   margin-left: auto;
   /* 2 */
   margin-right: auto;
@@ -6309,17 +6313,17 @@ nav {
 
 .logo {
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 30em;
-  height: auto;
-  margin: auto;
+  top: 10%;
+  left: 20%;
+  bottom: 30%;
+  margin: 0;
+  padding: 0;
   font-family: "Courgette", sans-serif;
   font-size: 36px;
   text-align: center;
   text-shadow: #222222;
-  z-index: 1; }
+  z-index: 1;
+  border: 1px dashed blue; }
 
 #carousel-couple {
   margin-bottom: 5px; }
@@ -6414,7 +6418,8 @@ MEDIA QUERIES
   flex-direction: column;
   flex: 1;
   height: 500px;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #082e32; }
   .column1 h3, .column2 h3, .column3 h3 {
     margin: 10px;
     padding: 10px;
@@ -6424,5 +6429,62 @@ MEDIA QUERIES
     margin: 10px;
     padding: 10px;
     font-size: 16px; }
+
+.about-wrapper .nav {
+  font-family: "Lora", sans-serif; }
+  .about-wrapper .nav ul {
+    margin: 10px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 18px;
+    text-transform: uppercase; }
+  .about-wrapper .nav li a {
+    color: #ffffff; }
+
+.about-tittle {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px; }
+
+.about-image {
+  display: flex;
+  justify-content: center; }
+
+.about-content {
+  display: flex; }
+  @media (max-width: 650px) {
+    .about-content {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      margin-top: -50px; } }
+
+.about-column1, .about-column2 {
+  flex: 1;
+  height: auto;
+  text-align: center; }
+
+.about {
+  padding: 10px;
+  margin: 10px;
+  font-size: 16px;
+  text-align: justify; }
+
+.menu-wrapper ul {
+  margin: 10px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  font-size: 18px;
+  text-transform: uppercase; }
+.menu-wrapper li a {
+  color: #ffffff; }
+
+.menu-tittle {
+  border: 1px solid red;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px; }
 
 /*# sourceMappingURL=main.css.map */
