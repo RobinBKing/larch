@@ -6295,28 +6295,21 @@ body {
   position: absolute;
   width: 1px; }
 
-ul {
-  margin: 10px;
-  display: flex;
-  list-style-type: none;
-  justify-content: space-around;
-  font-size: 18px;
-  text-transform: uppercase; }
-
-li a {
-  color: #ffffff; }
-
-.nav {
+nav {
   background-color: #320d08;
   font-family: "Lora", sans-serif; }
-
-.logo-container {
-  position: relative;
-  width: 100%; }
+  nav ul {
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    text-transform: uppercase; }
+    nav ul li a {
+      color: #ffffff; }
 
 .logo {
   position: absolute;
-  top: -20em;
+  top: 0;
   left: 0;
   bottom: 0;
   width: 30em;
@@ -6327,31 +6320,6 @@ li a {
   text-align: center;
   text-shadow: #222222;
   z-index: 1; }
-
-.content {
-  display: flex; }
-
-.column1, .column2, .column3 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-  flex-wrap: nowrap;
-  flex-direction: column;
-  flex: 1;
-  height: 500px;
-  overflow: hidden; }
-  .column1 h3, .column2 h3, .column3 h3 {
-    margin: 10px;
-    padding: 10px;
-    font-size: 20px;
-    text-align: center; }
-  .column1 p, .column2 p, .column3 p {
-    margin: 10px;
-    padding: 10px;
-    font-size: 16px; }
-
-ul {
-  list-style: none; }
 
 #carousel-couple {
   margin-bottom: 5px; }
@@ -6435,5 +6403,26 @@ ul {
 MEDIA QUERIES
 ------------*/
 /*End of Media querie*/
+.content {
+  display: flex; }
+
+.column1, .column2, .column3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  flex: 1;
+  height: 500px;
+  overflow: hidden; }
+  .column1 h3, .column2 h3, .column3 h3 {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center; }
+  .column1 p, .column2 p, .column3 p {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px; }
 
 /*# sourceMappingURL=main.css.map */
