@@ -8,13 +8,14 @@
 .navbar {
   background-color: $background-color;
 
-  .nav {
-    font-family: $nav-font-stack;
+  .navbar-collapse {
+    text-align: center;
+  }
 
     ul {
       margin: 10px;
-      display: flex;
-      justify-content: space-around;
+      // display: flex;
+      // justify-content: space-around;
       font-size: 18px;
       text-transform: uppercase;
 
@@ -23,8 +24,18 @@
         }
       }
   }
-}
 
+  .navbar .navbar-nav {
+    font-family: $nav-font-stack;
+    display: inline-block;
+    float: none;
+    align-items: stretch;
+    vertical-align: top;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
 
 .logo {
   position: absolute;
@@ -40,22 +51,6 @@
   z-index: 1;
 }
 
-#carousel-couple {
-  margin-bottom: 5px;
-}
-
-#carousel-columbia {
-  margin-bottom: 150px;
-}
-
-#carousel-mountain {
-  margin-bottom: 825px;
-}
-
-#carousel-road-fog {
-  margin-bottom: 825px;
-}
-
 .item {
   align-items: center;
   max-width: none;
@@ -68,10 +63,6 @@
 .carousel {
   margin: 0 auto;
   max-width: 100%;
-  background-color: $background-color;
-}
-
-#carousel-example-generic.carousel.slide {
   background-color: $background-color;
 }
 

@@ -6298,16 +6298,24 @@ body {
 
 .navbar {
   background-color: #320d08; }
-  .navbar .nav {
-    font-family: "Lora", sans-serif; }
-    .navbar .nav ul {
-      margin: 10px;
-      display: flex;
-      justify-content: space-around;
-      font-size: 18px;
-      text-transform: uppercase; }
-      .navbar .nav ul li a {
-        color: #ffffff; }
+  .navbar .navbar-collapse {
+    text-align: center; }
+  .navbar ul {
+    margin: 10px;
+    font-size: 18px;
+    text-transform: uppercase; }
+    .navbar ul li a {
+      color: #ffffff; }
+
+.navbar .navbar-nav {
+  font-family: "Lora", sans-serif;
+  display: inline-block;
+  float: none;
+  align-items: stretch;
+  vertical-align: top; }
+
+.navbar .navbar-collapse {
+  text-align: center; }
 
 .logo {
   position: absolute;
@@ -6322,18 +6330,6 @@ body {
   text-shadow: #222222;
   z-index: 1; }
 
-#carousel-couple {
-  margin-bottom: 5px; }
-
-#carousel-columbia {
-  margin-bottom: 150px; }
-
-#carousel-mountain {
-  margin-bottom: 825px; }
-
-#carousel-road-fog {
-  margin-bottom: 825px; }
-
 .item {
   align-items: center;
   max-width: none;
@@ -6346,9 +6342,6 @@ body {
 .carousel {
   margin: 0 auto;
   max-width: 100%;
-  background-color: #320d08; }
-
-#carousel-example-generic.carousel.slide {
   background-color: #320d08; }
 
 /*End of Media querie*/
@@ -6396,7 +6389,7 @@ body {
   font-size: 16px;
   text-align: justify; }
 
-.menu-tittle {
+.menu-title {
   text-align: center;
   margin-top: 40px;
   font-size: 40px; }
@@ -6408,7 +6401,6 @@ body {
 .menu-content-main {
   width: 80%;
   margin: 0 auto;
-  font-size: 16px;
   text-align: justify;
   text-align: center; }
   .menu-content-main h1 {
@@ -6421,7 +6413,6 @@ body {
 
 .menu-content-main p {
   margin-top: 20px;
-  font-size: 16px;
   padding-bottom: 15px;
   letter-spacing: 2px; }
   @media (max-width: 560px) {
@@ -6430,7 +6421,6 @@ body {
 
 .menu-content-body ol {
   width: 80%;
-  font-size: 16px;
   margin: 0 auto;
   margin-top: 20px;
   line-height: 29px;
