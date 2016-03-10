@@ -6,29 +6,23 @@ $column-background-color: complement($background-color);
 
 .content {
   display: flex;
-}
-
-.column1, .column2, .column3 {
-  display: flex;
+// }
+//
+// .column1, .column2, .column3 {
+  // display: flex;
   justify-content: flex-start;
   align-items: baseline;
   flex-wrap: nowrap;
   flex-direction: column;
-  // border: 1px solid red;
+  border: 3px solid $background-color;
   flex: 1;
-  height: 500px;
+  // height: 500px;
   overflow: hidden;
   background-color: $column-background-color;
 
-  h3 {
-    margin: 10px;
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-  }
   p {
     margin: 10px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 24px;
   }
 }
